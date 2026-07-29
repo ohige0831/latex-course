@@ -32,3 +32,51 @@
 [2m0:47:11[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/macos/index.html[22m
 [2m0:47:11[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/linux/index.html[22m
 [2m0:47:11[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/windows/index.html[22m
+[2m2:23:35[22m [36m[1m[vitepress][22m[39m [32mdocs\.vitepress\config.mts changed, restarting server...
+[39m
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/latex-course/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/01-introduction/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/linux/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/overleaf/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/macos/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/windows/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/03-first-document/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/04-basic-writing/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/05-math/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/06-figures-tables/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/07-template/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/404.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/common/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/linux/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/macos/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/windows/index.html[22m
+[2m2:31:29[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/404.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/01-introduction/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/04-basic-writing/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/03-first-document/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/07-template/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/06-figures-tables/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/05-math/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/preface/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/macos/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/overleaf/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/linux/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/windows/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/windows/latex-workshop.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/windows/texlive.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/windows/verify.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/02-installation/windows/vscode.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/common/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/linux/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/macos/index.html[22m
+[2m2:31:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/troubleshooting/windows/index.html[22m
