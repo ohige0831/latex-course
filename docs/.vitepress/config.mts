@@ -2,19 +2,27 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'ja',
-  title: '猿でもわかる LaTeX導入講座',
-  description: 'Windows初心者でも安心して使えるLaTeX環境の構築から基本的な文書作成まで丁寧に解説する講座です。',
+  title: 'LaTeX導入講座',
+  titleTemplate: ':title | LaTeX導入講座',
+  description: '研究室に配属された学生が、環境構築から基本的な文書作成まで自力で進められることを目標とした入門教材です。',
   base: '/latex-course/',
 
   themeConfig: {
     nav: [
       { text: 'ホーム', link: '/' },
+      { text: 'はじめに', link: '/preface/' },
       { text: '環境構築', link: '/02-installation/' },
       { text: 'LaTeX入門', link: '/01-introduction/' },
       { text: 'トラブルシューティング', link: '/troubleshooting/' },
     ],
 
     sidebar: [
+      {
+        text: 'はじめに',
+        items: [
+          { text: 'この教材について', link: '/preface/' },
+        ],
+      },
       {
         text: '第1章: LaTeXとは',
         items: [
@@ -24,8 +32,18 @@ export default defineConfig({
       {
         text: '第2章: 環境構築',
         items: [
-          { text: '環境構築の概要', link: '/02-installation/' },
-          { text: 'Windows', link: '/02-installation/windows/' },
+          { text: '概要', link: '/02-installation/' },
+          {
+            text: 'Windows',
+            collapsed: false,
+            items: [
+              { text: '準備と全体像', link: '/02-installation/windows/' },
+              { text: 'TeX Liveのインストール', link: '/02-installation/windows/texlive' },
+              { text: 'VS Codeのセットアップ', link: '/02-installation/windows/vscode' },
+              { text: 'LaTeX Workshopの設定', link: '/02-installation/windows/latex-workshop' },
+              { text: '動作確認', link: '/02-installation/windows/verify' },
+            ],
+          },
           { text: 'macOS（準備中）', link: '/02-installation/macos/' },
           { text: 'Linux（準備中）', link: '/02-installation/linux/' },
           { text: 'Overleaf（準備中）', link: '/02-installation/overleaf/' },
@@ -38,9 +56,9 @@ export default defineConfig({
         ],
       },
       {
-        text: '第4章: 基本的な文章作成',
+        text: '第4章: 基本的な文書作成',
         items: [
-          { text: '基本的な文章作成', link: '/04-basic-writing/' },
+          { text: '基本的な文書作成', link: '/04-basic-writing/' },
         ],
       },
       {
