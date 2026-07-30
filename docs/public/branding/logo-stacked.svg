@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 96">
+  <!-- Icon: 32×32 scaled to 48×48, centered horizontally in 180px (x-offset = 66) -->
+  <g fill="#0D47A1" stroke="#0D47A1" transform="translate(66,4) scale(1.5)">
+    <rect x="1.5" y="1.5" width="29" height="29" rx="5" ry="5"
+          fill="none"
+          stroke-width="2"
+          stroke-dasharray="2 2"
+          stroke-linecap="square"/>
+    <rect x="4"    y="6"  width="14"  height="2.5" stroke="none"/>
+    <rect x="9.75" y="6"  width="2.5" height="13"  stroke="none"/>
+    <line x1="19"  y1="12" x2="27"  y2="19"
+          fill="none" stroke-width="2.5" stroke-linecap="square"/>
+    <line x1="27"  y1="12" x2="19"  y2="19"
+          fill="none" stroke-width="2.5" stroke-linecap="square"/>
+    <rect x="4"    y="22"  width="24" height="2"   stroke="none"/>
+    <rect x="4"    y="25.5" width="24" height="2"  stroke="none"/>
+  </g>
+  <!-- Wordmark: centered, below icon -->
+  <text x="90" y="76"
+        fill="#0D47A1"
+        font-family="'Hiragino Sans', 'Yu Gothic UI', 'Noto Sans JP', system-ui, sans-serif"
+        font-size="18"
+        font-weight="600"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        letter-spacing="0">LaTeX導入講座</text>
+</svg>

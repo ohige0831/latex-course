@@ -5,6 +5,10 @@ hero:
   name: "LaTeX導入講座"
   text: "環境構築から文書作成まで"
   tagline: 研究室に配属されたばかりの方が、先輩に頼らず自力で進められることを目標としています。
+  image:
+    light: /latex-course/favicon.svg
+    dark: /latex-course/branding/favicon-white.svg
+    alt: LaTeX導入講座
   actions:
     - theme: brand
       text: はじめに →

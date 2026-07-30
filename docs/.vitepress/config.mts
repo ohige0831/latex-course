@@ -12,6 +12,13 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/latex-course/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/latex-course/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/latex-course/apple-touch-icon.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'LaTeX導入講座' }],
+    ['meta', { property: 'og:description', content: '研究室に配属された学生が、環境構築から基本的な文書作成まで自力で進められることを目標とした入門教材です。' }],
+    ['meta', { property: 'og:image', content: 'https://ohige0831.github.io/latex-course/og-image.png' }],
+    ['meta', { property: 'og:url', content: 'https://ohige0831.github.io/latex-course/' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://ohige0831.github.io/latex-course/og-image.png' }],
   ],
 
   themeConfig: {
