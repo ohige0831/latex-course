@@ -1,12 +1,39 @@
 /*
- * ヒーローテキストの幅制限を解除（画像なし・デスクトップのみ）
+ * 画像なし Hero: テキスト幅制限を解除（デスクトップのみ）
  *
- * VitePress デフォルト: .text に max-width: 576px が 640px+ ブレークポイントで適用される。
- * 画像なしのレイアウトでは 960px 以上でこの制限が不要なため解除する。
- * これにより「環境構築から文書作成まで」（13文字 × 56px ≈ 728px）が1行に収まる。
+ * VitePress デフォルト: .text に max-width: 576px が 640px+ で適用される。
+ * 画像なしレイアウトでは 960px 以上でこの制限が不要なため解除する。
  */
 @media (min-width: 960px) {
   .VPHero:not(.has-image) .text {
+    max-width: none;
+  }
+}
+
+/*
+ * 画像あり Hero: アイコンサイズを明示指定
+ *
+ * VitePress は max-width のみ設定するが、SVG の固有サイズが 32×32 のため
+ * width/height を指定しないと 32px で描画されてしまう。
+ */
+.VPHomeHero .image-src {
+  width: 140px;
+  height: 140px;
+}
+
+/*
+ * 画像あり Hero（デスクトップ）: テキスト列を広げ、画像列を控えめに
+ *
+ * デフォルト: .has-image .main に max-width: 592px 制限あり。
+ * これを外してテキスト列に flex の計算値（コンテナの 2/3）をそのまま使わせる。
+ * 同時に .text の max-width: 576px（640px ブレークポイント由来）も外す。
+ */
+@media (min-width: 960px) {
+  .VPHomeHero.has-image .main {
+    max-width: none;
+  }
+
+  .VPHomeHero.has-image .text {
     max-width: none;
   }
 }
