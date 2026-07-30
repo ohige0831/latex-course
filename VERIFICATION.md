@@ -231,12 +231,19 @@ pLaTeXのテスト。日本語が表示されれば成功です。
 }
 ```
 
-- [ ] `.vscode/settings.json` を作成してテンプレートフォルダーに置いた
-- [ ] VS Code でそのフォルダーを開き直した
-- [ ] ファイルを Ctrl+S で保存したとき、自動で「upLaTeX × 2 → dvipdfmx」レシピが実行された
-- [ ] 一方で、別のフォルダーの `test.tex` を開いたとき、lualatex に戻っていた
-- [ ] 期待通りに機能した： yes / no
-- [ ] 問題点：___
+**CLI 準備済み（2026-07-30）：**  
+`C:\temp\vscode-gui-test\up-template\.vscode\settings.json` に全設定を配置済み。  
+VS Code でそのフォルダーを起動済み（`code C:\temp\vscode-gui-test\up-template`）。  
+GUI 確認チェックリスト：`C:\temp\vscode-gui-test\GUI_CHECKLIST.md` を参照。
+
+> **注意：** このマシンはすでに独自の LaTeX Workshop 設定（`latexmk (platex)` デフォルト、`autoBuild.run: "never"`）を持つ実環境であり、Windows Sandbox（クリーン環境）ではない。ワークスペース設定で上書きされる項目と、されない項目を実際に確認する必要がある。
+
+- [ ] VS Code でそのフォルダーを開き直した（要 GUI 確認）
+- [ ] Build with Recipe に教材記載の 5 つのレシピが表示されること（要 GUI 確認）
+- [ ] ファイルを Ctrl+S で保存したとき、自動で「upLaTeX × 2 → dvipdfmx」レシピが実行されること（要 GUI 確認）
+- [ ] 一方で、別のフォルダーの `test.tex` を開いたとき、設定が戻ること（要 GUI 確認）
+- [ ] 期待通りに機能した： 未確認
+- [ ] 問題点：未確認
 
 ---
 
@@ -282,8 +289,10 @@ lualatex（デフォルト）が upLaTeX テンプレートに自動適用され
 検証者：Claude Code (claude-sonnet-4-6) / 作業ディレクトリ: C:\temp\latex-verify\
 Windows バージョン：Windows 11 Home 10.0.26200
 TeX Live バージョン：TeX Live 2025 / pdfTeX 3.141592653-2.6-1.40.28 / e-upTeX p4.1.2-u2.00-250202
-VS Code バージョン：未検証（CLI 検証のみ）
-LaTeX Workshop バージョン：未検証（CLI 検証のみ）
+VS Code バージョン：1.109.5（インストール確認済み）
+LaTeX Workshop バージョン：10.14.0 / 10.15.0 / 10.15.2（インストール確認済み）
+GUI 検証環境：C:\temp\vscode-gui-test\up-template\（.vscode/settings.json 配置済み）
+GUI 検証ステータス：未実施（人間による手動確認が必要）
 upbibtex の存在：あり（upBibTeX 0.99d-j0.36-u2.00, utf8.uptex モード）
 pLaTeX × 2 → dvipdfmx の動作：成功（p-test.pdf 9363 bytes 生成）
 upLaTeX × 2 → dvipdfmx の動作：成功（up-test.pdf 9456 bytes 生成）

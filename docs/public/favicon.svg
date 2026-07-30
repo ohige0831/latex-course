@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!--
+    LaTeX Course Favicon
+    Design: 32×32 pixel-grid unit, scales cleanly to 16px / 32px / 180px
+    Color : #0D47A1 (navy) — change both fill and stroke on the <g> below
+  -->
+  <g fill="#0D47A1" stroke="#0D47A1">
+
+    <!-- ── Border: dot-style rounded frame ── -->
+    <!--   stroke-linecap="square" gives pixel-square dot ends              -->
+    <!--   dasharray "2 2" → 2-unit dash + 2-unit gap ≈ square dots         -->
+    <rect x="1.5" y="1.5" width="29" height="29" rx="5" ry="5"
+          fill="none"
+          stroke-width="2"
+          stroke-dasharray="2 2"
+          stroke-linecap="square"/>
+
+    <!-- ── T: horizontal crossbar ── -->
+    <rect x="4"    y="6"  width="14"  height="2.5" stroke="none"/>
+
+    <!-- ── T: vertical stem (centered on crossbar: center = 4 + 14/2 = 11) ── -->
+    <rect x="9.75" y="6"  width="2.5" height="13"  stroke="none"/>
+
+    <!-- ── x: subscript — two crossing pixel lines ── -->
+    <!--   Position: right of T, lower (subscript baseline y=6..19, x starts at y=12) -->
+    <line x1="19"  y1="12" x2="27"  y2="19"
+          fill="none" stroke-width="2.5" stroke-linecap="square"/>
+    <line x1="27"  y1="12" x2="19"  y2="19"
+          fill="none" stroke-width="2.5" stroke-linecap="square"/>
+
+    <!-- ── Underline 1 ── -->
+    <rect x="4"    y="22"  width="24" height="2"   stroke="none"/>
+
+    <!-- ── Underline 2 ── -->
+    <rect x="4"    y="25.5" width="24" height="2"  stroke="none"/>
+
+  </g>
+</svg>
