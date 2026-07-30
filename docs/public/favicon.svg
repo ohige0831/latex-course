@@ -1,38 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <!--
-    LaTeX Course Favicon
-    Design: 32×32 pixel-grid unit, scales cleanly to 16px / 32px / 180px
-    Color : #0D47A1 (navy) — change both fill and stroke on the <g> below
+    LaTeX Course Favicon — Tx pixel-art design
+    Color: single <g> attribute — change fill/stroke here to recolor all elements
+    Grid: 32×32 viewBox, pixel size 1.5 for the x staircase
   -->
   <g fill="#0D47A1" stroke="#0D47A1">
 
-    <!-- ── Border: dot-style rounded frame ── -->
-    <!--   stroke-linecap="square" gives pixel-square dot ends              -->
-    <!--   dasharray "2 2" → 2-unit dash + 2-unit gap ≈ square dots         -->
-    <rect x="1.5" y="1.5" width="29" height="29" rx="5" ry="5"
+    <!-- Border: thin dot-square frame -->
+    <rect x="1" y="1" width="30" height="30" rx="4" ry="4"
           fill="none"
-          stroke-width="2"
-          stroke-dasharray="2 2"
+          stroke-width="1"
+          stroke-dasharray="1.5 1.5"
           stroke-linecap="square"/>
 
-    <!-- ── T: horizontal crossbar ── -->
-    <rect x="4"    y="6"  width="14"  height="2.5" stroke="none"/>
+    <!-- T: crossbar -->
+    <rect x="4" y="5" width="14" height="2" stroke="none"/>
 
-    <!-- ── T: vertical stem (centered on crossbar: center = 4 + 14/2 = 11) ── -->
-    <rect x="9.75" y="6"  width="2.5" height="13"  stroke="none"/>
+    <!-- T: stem (centered on crossbar: center x = 4 + 14/2 = 11) -->
+    <rect x="10" y="5" width="2" height="12" stroke="none"/>
 
-    <!-- ── x: subscript — two crossing pixel lines ── -->
-    <!--   Position: right of T, lower (subscript baseline y=6..19, x starts at y=12) -->
-    <line x1="19"  y1="12" x2="27"  y2="19"
-          fill="none" stroke-width="2.5" stroke-linecap="square"/>
-    <line x1="27"  y1="12" x2="19"  y2="19"
-          fill="none" stroke-width="2.5" stroke-linecap="square"/>
+    <!-- x subscript: pixel-art staircase, 5×5 diagonal pattern -->
+    <!-- pixel size = 1.5×1.5, step = 1.5 in both x and y              -->
+    <!-- \ diagonal (top-left → bottom-right)                            -->
+    <rect x="18.5" y="13"   width="1.5" height="1.5" stroke="none"/>
+    <rect x="20"   y="14.5" width="1.5" height="1.5" stroke="none"/>
+    <rect x="21.5" y="16"   width="1.5" height="1.5" stroke="none"/><!-- center -->
+    <rect x="23"   y="17.5" width="1.5" height="1.5" stroke="none"/>
+    <rect x="24.5" y="19"   width="1.5" height="1.5" stroke="none"/>
+    <!-- / diagonal (top-right → bottom-left, center already drawn)      -->
+    <rect x="24.5" y="13"   width="1.5" height="1.5" stroke="none"/>
+    <rect x="23"   y="14.5" width="1.5" height="1.5" stroke="none"/>
+    <rect x="20"   y="17.5" width="1.5" height="1.5" stroke="none"/>
+    <rect x="18.5" y="19"   width="1.5" height="1.5" stroke="none"/>
 
-    <!-- ── Underline 1 ── -->
-    <rect x="4"    y="22"  width="24" height="2"   stroke="none"/>
+    <!-- Underline 1 (longer) -->
+    <rect x="4" y="22" width="20" height="1" stroke="none"/>
 
-    <!-- ── Underline 2 ── -->
-    <rect x="4"    y="25.5" width="24" height="2"  stroke="none"/>
+    <!-- Underline 2 (shorter) -->
+    <rect x="6" y="24" width="14" height="1" stroke="none"/>
 
   </g>
 </svg>
