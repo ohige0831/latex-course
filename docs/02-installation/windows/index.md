@@ -39,6 +39,7 @@ TeX Liveのインストールは特に時間がかかります。インストー
 2. [VS Codeのセットアップ](./vscode) — エディタ
 3. [LaTeX Workshopの設定](./latex-workshop) — 拡張機能とLuaLaTeX設定
 4. [動作確認](./verify) — テスト文書のコンパイル
+5. [研究室テンプレートを動かす](./lab-template) — 先生・先輩のテンプレートが pLaTeX / upLaTeX を使う場合（任意）
 
 ---
 

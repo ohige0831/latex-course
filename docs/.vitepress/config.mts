@@ -42,6 +42,7 @@ export default defineConfig({
               { text: 'VS Codeのセットアップ', link: '/02-installation/windows/vscode' },
               { text: 'LaTeX Workshopの設定', link: '/02-installation/windows/latex-workshop' },
               { text: '動作確認', link: '/02-installation/windows/verify' },
+              { text: '研究室テンプレートを動かす', link: '/02-installation/windows/lab-template' },
             ],
           },
           { text: 'macOS（準備中）', link: '/02-installation/macos/' },
@@ -84,7 +85,19 @@ export default defineConfig({
         items: [
           { text: '概要', link: '/troubleshooting/' },
           { text: 'よくある問題（共通）', link: '/troubleshooting/common/' },
-          { text: 'Windows固有の問題', link: '/troubleshooting/windows/' },
+          {
+            text: 'Windows',
+            collapsed: false,
+            items: [
+              { text: '一覧', link: '/troubleshooting/windows/' },
+              { text: 'TeX Live', link: '/troubleshooting/windows/texlive' },
+              { text: 'VS Code', link: '/troubleshooting/windows/vscode' },
+              { text: 'コンパイル', link: '/troubleshooting/windows/compile' },
+              { text: 'PDF表示', link: '/troubleshooting/windows/pdf' },
+              { text: '日本語', link: '/troubleshooting/windows/japanese' },
+              { text: 'よくあるミス', link: '/troubleshooting/windows/common-mistakes' },
+            ],
+          },
           { text: 'macOS固有の問題（準備中）', link: '/troubleshooting/macos/' },
           { text: 'Linux固有の問題（準備中）', link: '/troubleshooting/linux/' },
         ],
